@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 50px;
+    margin-top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+span{
+    color: #38b6ff;
+}
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 1px;
+    margin: 10px;
+    font-size: 20px;
+}
+nav > ul > li > a:hover{
+    color: #38b6ff;
+    cursor: pointer;
+    list-style: underline;
+}
+nav > ul > li > a ::after{
+    color: #38b6ff;
+    cursor: pointer;
+    list-style: underline;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    float: l;
+}
+.Profile{
+    padding: 30px;
+    padding-top: 100px;
+}
+.Profile > img{
+    width: 300px;
+    height: 350px;
+    float: right;
+    border: white 2px solid;
+    padding: 10px;
+}
+.home > span{
+    border: 2px white, solid;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(112.2deg, rgb(86, 223, 223) 4.7%, rgb(2, 28, 186) 110.1%);
+}
+.home-exp > h1{
+    font-size: 50px;
+    padding-top:50px;
+}
+.home > header > span{
+    color: #38b6ff;
+}
+.home-exp > h3{
+    text-align: justify;
+    width: 500px;
+    font-size: 15px;
+}
+#res{
+    padding-top: 50px;
+}
+.resume > a{
+    border: 2px #38b6ff, solid;
+    color: #38b6ff;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.resume > a:hover{
+    background-color: #38b6ff;
+    color: white;
+    border: white 2px solid;
+}
+.title-skills {
+    font-size: 40px;
+    padding-top: 100px;
+}
+.title-skills > h1{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.skills{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sp{
+    height: 400px;
+    width: 380px;
+    margin: 5px;
+    text-align: center;
+    
+    
+}
+.sp > ul{
+    color: #38b6ff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.sp > h3{
+    padding-bottom: 20px;
+}
+.sp > ul > li{
+    list-style: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sp > img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+.sp > .center-img > img{
+    width: 380px;
+    height: 400px;
+}
+.title-project{
+    padding-top: 100px;
+}
+.projects{
+    justify-content: space-between;
+    padding-top: 50px;
+    display: flex; 
+    align-items: center; 
+}
+.p1{
+    width: 350px;
+    height: 450px;
+    border: #38b6ff solid 2px;
+    
+}
+
+.p1 > img{
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+}
+.prj-heading{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.view-project > a{
+    border: #38b6ff solid 2px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #38b6ff;
+    padding: 10px;
+}
+.view-project > a:hover{
+    background-color:  #38b6ff;
+    color: white;
+    border: white 2px solid;
+}
+.view-project{
+  padding-left: 120px;
+}
+.title-contact {
+    font-size: 40px;
+    padding-top: 100px;
+}
+.title-contact > h1{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.title-contact > h2{
+    padding-top: 20px;
+    
+    font-size: 30px;
+}
+.contact{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.form{
+    padding-top: 20px;
+    
+}
+.form-control{
+    padding: 10px;
+}
+input,textarea{
+    line-height: 22px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #38b6ff;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.button{
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    width: 30%;
+    border: #38b6ff solid 2px;
+    border-radius: 5px;
+    color: #38b6ff;
+    background-color: transparent;
+}
+button:hover{
+    background-color: #38b6ff;
+    color: white;
+    border: 2px white solid;
+    cursor: pointer;
+}
+.details > ul {
+    background-color: #38b6ff;
+    list-style: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+.details > ul > li > .contact-icon > i  {
+    padding-right: 40px;
+}
+.details > ul > li > .contact-icon > a > i  {
+    padding-right: 40px;
+}
+.details > ul > li > .contact-icon > a > i:hover{
+    color: black;
+}
+.details > ul > li > .contact-icon > :hover{
+    color: black;
+}
+.links > a {
+    padding-right: 10px;
+}
+.links > a > i{
+    padding-right: 20px;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+.links > a > i:hover{
+    padding-right: 20px;
+    border: 2px #38b6ff solid;
+    color: #38b6ff;
+    background-color: black;
+    border-radius: 50%;
+}
+.details > ul > li{
+    padding-bottom: 20px;
+}
+.details > ul > li > .contact-icon > a{
+    text-decoration: none;
+    color: white;
+}
+.details > ul > li > .contact-icon > a :hover{
+    cursor: pointer;
+}
+.links > a > i{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.details{
+    padding-top: 20px;
+}
+
+@media(max-width: 600px) {
+    nav{
+        display: block;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+    }
+    
+    nav ul li {
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+        padding: 1px;
+        margin: 10px;
+        font-size: 20px;
+        
+    }
+    nav > ul > li > a{
+        text-align: center;
+    }
+
+    .Profile > img{
+        width: 150px;
+        height: 200px;
+        float: right;
+        border: white 2px solid;
+        padding: 10px;
+    }
+    .home-exp > h1{
+        font-size: 30px;
+        padding-top:50px;
+    }
+    .projects{
+        justify-content: space-between;
+        padding-top: 50px;
+        display: block; 
+        align-items: center; 
+    }
+    .contact{
+        padding-top: 20px;
+        display: block;
+        justify-content: space-around;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .p1{
+        width: 500px;
+        height: 450px;
+        border: #38b6ff solid 2px;
+        margin-bottom: 20px;
+    }
+    .p1 > img{
+        width: 450px;
+        height: 300px;
+        padding: 25px;
+    }
+    .view-project{
+        padding-left: 200px;
+      }
+      .skills{
+        padding-top: 50px;
+        display: block;
+        justify-content: space-between;
+    }
+    .home-exp > h3{
+        text-align: justify;
+        width: 250px;
+        font-size: 15px;
+    }      
+}
