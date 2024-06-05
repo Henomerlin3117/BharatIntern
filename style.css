@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url('background.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.container{
+    background-color: cornflowerblue;
+    padding: 50px;
+    border-radius: 10px;
+    margin-left: 485px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.results > img{
+    width: 100px;
+    height: 80px;
+}
+
+.heading{
+    color: yellow;
+}
+
+.container > .search > #city-name{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search > #city-name:focus{
+    background-color: #fff;
+    color: black;
+    border-color: lightblue;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0,123,255,25%);
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    font-weight: bolder;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.results{
+    display: none;
+    color: #fff;
+}
+.error{
+    display: none;
+}
+.results > h3{
+    color: black;
+}
+.results > p{
+    font-size: 20px;
+    color: white;
+}
